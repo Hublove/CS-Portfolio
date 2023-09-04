@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"aos": "^3.0.0-beta.6"
+		"aos": "^3.0.0-beta.6",
+		"tailwind-scrollbar-hide": "^1.1.7"
 	}
 }
