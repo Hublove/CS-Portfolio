@@ -6,7 +6,7 @@
 <div class="hover:scale-105 ease-in duration-300">
 
     <div
-        class="flex hover:invert justify-center rounded-xl p-4 shadow-sm bg-white border border-2 border-gray-900" 
+        class="h-full flex hover:invert  items-center justify-center rounded-xl sm:p-4 px-4 py-2 shadow-sm bg-white border border-2 border-gray-900" 
         data-aos="zoom-out-left" 
         data-aos-once="true"
         data-aos-easing="ease-out-quart"
@@ -14,12 +14,12 @@
 
         
     >
-        <span class="inline-block rounded-lg bg-white m3">
-            <img class="h-10 w-10" src="{svg}">
+        <span class="inline-block rounded-lg bg-white ">
+            <img class="sm:h-10 sm:w-10 h-9 w-9" src="{svg}">
         </span>
 
 
 
-        <h2 class="self-center mx-2 font-bold text-lg">{lang}</h2>
+        <h2 class="self-center mx-2 font-bold text-md sm:text-lg">{lang}</h2>
     </div>
 </div>

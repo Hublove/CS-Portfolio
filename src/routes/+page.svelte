@@ -21,12 +21,12 @@
 </svelte:head>
 
 <div class="scrollbar-hide">
-    <section id="about" class="relative bg-gray-50 bg-[url(https://github.com/Hublove/hublove.github.io/blob/master/css/images/background.jpg?raw=true)] bg-cover bg-center bg-no-repeat">
+    <section id="about" class="relative bg-gray-50 bg-[url(https://github.com/Hublove/hublove.github.io/blob/master/css/images/background.jpg?raw=true)] bg-cover bg-center bg-no-repeat sm:aspect-auto aspect-square">
         <div
           class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
         >
           <div class="mx-auto max-w-xl text-center">
-            <h1 class="text-3xl text-gray-900 font-extrabold sm:text-6xl">
+            <h1 class="text-4xl text-gray-900 font-extrabold sm:text-6xl">
               Sebastian Stanik
               
             </h1>
@@ -63,7 +63,7 @@
       This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
     -->
     
-    <section class="w-full bg-gray-900">
+    <section class="w-full bg-gray-900 px-2 " id="projects">
         <div class=" px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div
             class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 place-items-center lg:items-center  "
@@ -72,15 +72,22 @@
               class="mx-auto max-w-lg  lg:mx-0 ltr:lg:text-left rtl:lg:text-right "
             >
               <h2 class="text-3xl text-white font-bold sm:text-5xl">Skills</h2>
-      
-              <p class="mt-4 text-gray-300 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero
-                aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda?
-                Deleniti quasi inventore, libero reiciendis minima aliquid tempora.
-                Obcaecati, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero
-                aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda?
-                Deleniti quasi inventore, libero reiciendis minima aliquid tempora.
-                Obcaecati, autem.
+
+              <p class="sm:mt-16  mt-6 mb-3 font-semibold leading-relaxed tracking-wide text-gray-300 text-lg sm:text-xl">Hello there 👋 </p>
+              <p class="leading-relaxed tracking-wide text-gray-300 text-md sm:text-lg">
+                I'm Sebastian,  a front-end developer and junior dev with a passion for 
+                creating visually engaging and user-friendly web experiences. My toolkit includes 
+                expertise in JavaScript and Python, with a focus on modern frameworks like Svelte 
+                to craft efficient and responsive web applications. Beyond coding, I find joy in 
+                the art of photography, where I channel my creativity and capture the 
+                beauty of the world one frame at a time. With a passion for both technology and 
+                the visual arts, I enjoy combining the two to build unique digital experiences. 
+                
+
+
+
+
+
               </p>
       
               <a
@@ -91,7 +98,7 @@
               </a>
             </div>
       
-            <div class="flex flex-row flex-wrap gap-8  ">
+            <div class="sm:flex sm:flex-row sm:flex-wrap justify-stretch sm:gap-8 gap-1  grid grid-cols-2">
               <Skill lang="Javascript" svg="https://img.icons8.com/?size=512&id=39854&format=png"/>
               <Skill lang="Python" svg="https://img.icons8.com/?size=512&id=12592&format=png"/>
               <Skill lang="Java" svg="https://img.icons8.com/?size=512&id=38294&format=png"/>
@@ -100,7 +107,7 @@
               <Skill lang="React" svg="https://img.icons8.com/?size=512&id=35989&format=png"/>
               <Skill lang="Node.js" svg="https://img.icons8.com/?size=512&id=DAoKOqsuGfIG&format=png"/>
               <Skill lang="Svelte" svg="https://img.icons8.com/?size=512&id=7ST6T6xV3OPb&format=png"/>
-              <Skill lang="Tailwind CSS" svg="https://img.icons8.com/?size=512&id=UpSCHTwpywad&format=png"/>
+              <Skill lang="Tailwind" svg="https://img.icons8.com/?size=512&id=UpSCHTwpywad&format=png"/>
               <Skill lang="Git" svg="https://img.icons8.com/?size=512&id=38389&format=png"/>
               <Skill lang="Docker" svg="https://img.icons8.com/?size=512&id=sIsJJux4DVLR&format=png"/>
               <Skill lang="VS Code" svg="https://img.icons8.com/?size=512&id=121602&format=png"/>          
@@ -112,8 +119,8 @@
     
       </section>
     <!-- PROJECTS -->
-      <section class="bg-gray-900 text-white">
-        <div id="projects" class="flex justify-center ">
+      <section class="bg-gray-900 text-white px-2">
+        <div class="flex justify-center ">
             <div class="w-5/6 border border-gray-700 my-4"></div>
         </div>
         <div
