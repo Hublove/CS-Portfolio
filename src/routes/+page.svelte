@@ -98,7 +98,7 @@
               </a>
             </div>
       
-            <div class="sm:flex sm:flex-row sm:flex-wrap justify-stretch sm:gap-8 gap-1  grid grid-cols-2">
+            <div class="sm:flex sm:flex-row sm:flex-wrap justify-stretch sm:gap-8 gap-1 gap-x-2 grid grid-cols-2">
               <Skill lang="Javascript" svg="https://img.icons8.com/?size=512&id=39854&format=png"/>
               <Skill lang="Python" svg="https://img.icons8.com/?size=512&id=12592&format=png"/>
               <Skill lang="Java" svg="https://img.icons8.com/?size=512&id=38294&format=png"/>

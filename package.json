@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@vercel/analytics": "^1.0.2",
 		"aos": "^3.0.0-beta.6",
 		"tailwind-scrollbar-hide": "^1.1.7"
 	}
