@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </svelte:head>
 
-<div class="scrollbar-hide w-screen">
+<div class="scrollbar-hide overflow-x-hidden">
     <section id="about" class="relative bg-gray-50 bg-[url(https://github.com/Hublove/hublove.github.io/blob/master/css/images/background.jpg?raw=true)] bg-cover bg-center bg-no-repeat sm:aspect-auto aspect-square">
         <div
           class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
