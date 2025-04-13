@@ -21,7 +21,7 @@
 </svelte:head>
 
 <div class="scrollbar-hide overflow-x-hidden">
-    <section id="about" class="relative bg-gray-50 bg-[url(https://cdn.discordapp.com/attachments/732349816687820994/1153119410479976559/output.webp)] bg-cover bg-center bg-no-repeat sm:aspect-auto aspect-square">
+    <section id="about" class="relative bg-gray-50 bg-[url(https://www.sebs.vision/Travel/Wheat-Field.webp)] bg-cover bg-center bg-no-repeat sm:aspect-auto aspect-square">
         <div
           class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
         >
